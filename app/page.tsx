@@ -16,19 +16,19 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-8">
               <a
-                href="#docs"
+                href="/#docs"
                 className="text-base text-gray-600 hover:text-gray-900"
               >
                 Docs
               </a>
               <a
-                href="#pricing"
+                href="/pricing"
                 className="text-base text-gray-600 hover:text-gray-900"
               >
                 Pricing
               </a>
               <a
-                href="#signup"
+                href="/#signup"
                 className="text-base px-5 py-2.5 bg-gray-900 text-white rounded-lg hover:bg-gray-800"
               >
                 Get Started
@@ -543,7 +543,7 @@ export default function Home() {
                 <a href="#docs" className="hover:text-gray-900">
                   Docs
                 </a>
-                <a href="#pricing" className="hover:text-gray-900">
+                <a href="/pricing" className="hover:text-gray-900">
                   Pricing
                 </a>
                 <a href="#status" className="hover:text-gray-900">
