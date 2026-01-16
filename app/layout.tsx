@@ -6,22 +6,26 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Image Compress API - Fast & Reliable Image Compression",
-    template: "%s | Image Compress API",
+    default: "Bulk Image Compression API with Custom Sizes | ImageCompressAPI",
+    template: "%s | ImageCompressAPI",
   },
   description:
-    "High-performance image compression API. Compress images quickly and efficiently with our developer-friendly API. Fast, reliable, and easy to integrate.",
+    "Image compression and resize API for developers. Compress images in bulk, convert to AVIF and WebP, and define custom image sizes using a fast API.",
   keywords: [
     "image compression",
     "image optimization",
     "API",
     "image resize",
+    "bulk image compression",
+    "AVIF conversion",
+    "WebP conversion",
+    "custom image sizes",
     "web performance",
     "developer tools",
   ],
-  authors: [{ name: "Image Compress API" }],
-  creator: "Image Compress API",
-  publisher: "Image Compress API",
+  authors: [{ name: "ImageCompressAPI" }],
+  creator: "ImageCompressAPI",
+  publisher: "ImageCompressAPI",
   formatDetection: {
     email: false,
     address: false,
@@ -35,24 +39,24 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://imagecompressapi.com",
-    siteName: "Image Compress API",
-    title: "Image Compress API - Fast & Reliable Image Compression",
+    siteName: "ImageCompressAPI",
+    title: "Bulk Image Compression API with Custom Sizes | ImageCompressAPI",
     description:
-      "High-performance image compression API. Compress images quickly and efficiently with our developer-friendly API.",
+      "Image compression and resize API for developers. Compress images in bulk, convert to AVIF and WebP, and define custom image sizes using a fast API.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Image Compress API",
+        alt: "ImageCompressAPI - Bulk Image Compression API",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Image Compress API - Fast & Reliable Image Compression",
+    title: "Bulk Image Compression API with Custom Sizes | ImageCompressAPI",
     description:
-      "High-performance image compression API. Compress images quickly and efficiently with our developer-friendly API.",
+      "Image compression and resize API for developers. Compress images in bulk, convert to AVIF and WebP, and define custom image sizes using a fast API.",
     images: ["/og-image.jpg"],
     creator: "@imagecompressapi",
   },
