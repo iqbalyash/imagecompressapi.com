@@ -57,7 +57,7 @@ export default function Home() {
                   Get API Key
                 </a>
                 <a
-                  href="#docs"
+                  href="/docs"
                   className="px-8 py-4 border-2 border-gray-300 text-gray-900 rounded-lg font-semibold text-lg hover:bg-gray-50"
                 >
                   View API Docs
@@ -525,7 +525,7 @@ export default function Home() {
                   Get API Key
                 </a>
                 <a
-                  href="#docs"
+                  href="/docs"
                   className="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg font-semibold text-lg hover:bg-white hover:text-gray-900"
                 >
                   Read Docs
@@ -546,7 +546,7 @@ export default function Home() {
                 <a href="/pricing" className="hover:text-gray-900">
                   Pricing
                 </a>
-                <a href="#status" className="hover:text-gray-900">
+                <a href="/status" className="hover:text-gray-900">
                   API Status
                 </a>
                 <a href="/terms" className="hover:text-gray-900">
