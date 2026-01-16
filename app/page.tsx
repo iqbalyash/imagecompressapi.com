@@ -549,10 +549,10 @@ export default function Home() {
                 <a href="#status" className="hover:text-gray-900">
                   API Status
                 </a>
-                <a href="#terms" className="hover:text-gray-900">
+                <a href="/terms" className="hover:text-gray-900">
                   Terms
                 </a>
-                <a href="#privacy" className="hover:text-gray-900">
+                <a href="/privacy" className="hover:text-gray-900">
                   Privacy
                 </a>
               </div>
