@@ -31,7 +31,7 @@ export default function DocsPage() {
           <div className="flex items-center justify-between">
             <a href="/" className="flex items-center">
               <Image
-                src="/image_compress_api_logo.png"
+                src="/image_compress_api_logo1.png"
                 alt="ImageCompressAPI"
                 width={800}
                 height={200}
