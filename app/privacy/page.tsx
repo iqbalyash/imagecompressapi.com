@@ -17,9 +17,9 @@ export default function PrivacyPage() {
               <Image
                 src="/image_compress_api_logo.png"
                 alt="ImageCompressAPI"
-                width={180}
-                height={40}
-                className="h-8 w-auto"
+                width={200}
+                height={50}
+                className="h-10 sm:h-12 w-auto"
                 priority
               />
             </a>
