@@ -13,17 +13,16 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-      <nav className="container mx-auto px-4 sm:px-6 lg:px-8 py-3">
-        <div className="flex items-center justify-between">
-          <Link href="/" className="flex items-center">
+      <nav className="container mx-auto px-4 sm:px-6 lg:px-8 py-3 md:py-4">
+        <div className="flex items-center justify-between min-h-[60px] md:min-h-[70px]">
+          <Link href="/" className="flex items-center h-full">
             <Image
               src="/image_compress_api_logo1.png"
-              alt="ImageCompressAPI"
-              width={120}
-              height={30}
-              className="w-auto"
-              style={{ height: "38px" }}
-              priority
+              alt="ImageCompressAPI Logo"
+              width={200}
+              height={50}
+              className="w-[140px] md:w-[200px] h-auto object-contain max-h-[50px] md:max-h-[60px]"
+              priority={true}
               unoptimized
             />
           </Link>
