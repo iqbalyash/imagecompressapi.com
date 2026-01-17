@@ -17,16 +17,16 @@ export default function Home() {
               <Image
                 src="/image_compress_api_logo.png"
                 alt="ImageCompressAPI"
-                width={200}
-                height={50}
-                className="h-10 sm:h-12 w-auto"
+                width={800}
+                height={200}
+                className="h-40 sm:h-48 w-auto"
                 priority
                 unoptimized
               />
             </a>
             <div className="flex items-center gap-8">
               <a
-                href="/#docs"
+                href="/docs"
                 className="text-base text-gray-600 hover:text-gray-900"
               >
                 Docs
@@ -550,7 +550,7 @@ export default function Home() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
               <div className="flex flex-wrap items-center justify-center sm:justify-start gap-6 text-base text-gray-600">
-                <a href="#docs" className="hover:text-gray-900">
+                <a href="/docs" className="hover:text-gray-900">
                   Docs
                 </a>
                 <a href="/pricing" className="hover:text-gray-900">

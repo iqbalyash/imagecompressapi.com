@@ -33,9 +33,9 @@ export default function DocsPage() {
               <Image
                 src="/image_compress_api_logo.png"
                 alt="ImageCompressAPI"
-                width={200}
-                height={50}
-                className="h-10 sm:h-12 w-auto"
+                width={800}
+                height={200}
+                className="h-40 sm:h-48 w-auto"
                 priority
                 unoptimized
               />
