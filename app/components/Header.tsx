@@ -42,6 +42,12 @@ export default function Header() {
               Pricing
             </Link>
             <Link
+              href="/status"
+              className="text-base text-slate-600 hover:text-primary transition-colors"
+            >
+              API Status
+            </Link>
+            <Link
               href="/#signup"
               className="text-base px-5 py-2.5 bg-primary text-white rounded-lg hover:bg-accent transition-colors"
             >
@@ -94,6 +100,13 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Pricing
+            </Link>
+            <Link
+              href="/status"
+              className="text-base text-slate-600 hover:text-primary transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              API Status
             </Link>
             <Link
               href="/#signup"
