@@ -72,13 +72,13 @@ export default function StatusPage() {
       <main className="bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
               API Status & Service Health
             </h1>
-            <p className="text-xl text-gray-600 mb-4 leading-relaxed">
-              Real-time status and uptime information for all ImageCompressAPI services. Monitor the health of our <strong className="text-gray-900">image compression API</strong>, image processing infrastructure, CDN, and database systems.
+            <p className="text-xl text-gray-300 mb-4 leading-relaxed">
+              Real-time status and uptime information for all ImageCompressAPI services. Monitor the health of our <strong className="text-dark-slate">image compression API</strong>, image processing infrastructure, CDN, and database systems.
             </p>
-            <p className="text-base text-gray-600 mb-12">
+            <p className="text-base text-gray-300 mb-12">
               We maintain a 99.9% uptime SLA with transparent status reporting and incident tracking.
             </p>
 
@@ -86,18 +86,18 @@ export default function StatusPage() {
             <div className="bg-green-50 border-2 border-green-200 rounded-xl p-6 mb-12">
               <div className="flex items-center mb-4">
                 <div className="w-4 h-4 bg-green-500 rounded-full mr-3"></div>
-                <h2 className="text-2xl font-bold text-gray-900">
+                <h2 className="text-2xl font-bold text-dark-slate">
                   All Systems Operational
                 </h2>
               </div>
-              <p className="text-base text-gray-700">
+              <p className="text-base text-slate-700">
                 All services are running normally. No incidents reported.
               </p>
             </div>
 
             {/* Services Status */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-bold text-dark-slate mb-6">
                 Service Status
               </h2>
               <div className="space-y-4">
@@ -107,7 +107,7 @@ export default function StatusPage() {
                     className="bg-white border border-gray-200 rounded-lg p-6 shadow-sm"
                   >
                     <div className="flex items-center justify-between mb-4">
-                      <h3 className="text-xl font-semibold text-gray-900">
+                      <h3 className="text-xl font-semibold text-dark-slate">
                         {service.name}
                       </h3>
                       <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-semibold">
@@ -116,14 +116,14 @@ export default function StatusPage() {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
-                        <p className="text-sm text-gray-600 mb-1">Uptime (30 days)</p>
-                        <p className="text-lg font-semibold text-gray-900">
+                        <p className="text-sm text-gray-300 mb-1">Uptime (30 days)</p>
+                        <p className="text-lg font-semibold text-dark-slate">
                           {service.uptime}
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-gray-600 mb-1">Avg Response Time</p>
-                        <p className="text-lg font-semibold text-gray-900">
+                        <p className="text-sm text-gray-300 mb-1">Avg Response Time</p>
+                        <p className="text-lg font-semibold text-dark-slate">
                           {service.responseTime}
                         </p>
                       </div>
@@ -135,28 +135,28 @@ export default function StatusPage() {
 
             {/* System Metrics */}
             <section className="mb-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-bold text-dark-slate mb-6">
                 System Metrics
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                <div className="bg-gray-50 rounded-lg p-6 text-center">
-                  <p className="text-3xl font-bold text-gray-900 mb-2">99.9%</p>
-                  <p className="text-sm text-gray-600">Overall Uptime</p>
+                <div className="bg-light-gray rounded-lg p-6 text-center">
+                  <p className="text-3xl font-bold text-dark-slate mb-2">99.9%</p>
+                  <p className="text-sm text-gray-300">Overall Uptime</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6 text-center">
-                  <p className="text-3xl font-bold text-gray-900 mb-2">150ms</p>
-                  <p className="text-sm text-gray-600">Avg Response Time</p>
+                <div className="bg-light-gray rounded-lg p-6 text-center">
+                  <p className="text-3xl font-bold text-dark-slate mb-2">150ms</p>
+                  <p className="text-sm text-gray-300">Avg Response Time</p>
                 </div>
-                <div className="bg-gray-50 rounded-lg p-6 text-center">
-                  <p className="text-3xl font-bold text-gray-900 mb-2">0</p>
-                  <p className="text-sm text-gray-600">Active Incidents</p>
+                <div className="bg-light-gray rounded-lg p-6 text-center">
+                  <p className="text-3xl font-bold text-dark-slate mb-2">0</p>
+                  <p className="text-sm text-gray-300">Active Incidents</p>
                 </div>
               </div>
             </section>
 
             {/* Recent Incidents */}
             <section>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-bold text-dark-slate mb-6">
                 Recent Incidents
               </h2>
               <div className="space-y-4">
@@ -167,45 +167,45 @@ export default function StatusPage() {
                   >
                     <div className="flex items-start justify-between mb-3">
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                        <h3 className="text-lg font-semibold text-dark-slate mb-1">
                           {incident.title}
                         </h3>
-                        <p className="text-sm text-gray-600">{incident.date}</p>
+                        <p className="text-sm text-gray-300">{incident.date}</p>
                       </div>
                       <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-semibold">
                         {incident.status}
                       </span>
                     </div>
-                    <p className="text-base text-gray-700 leading-relaxed">
+                    <p className="text-base text-slate-700 leading-relaxed">
                       {incident.description}
                     </p>
                   </div>
                 ))}
               </div>
-              <p className="text-sm text-gray-600 mt-6 text-center">
+              <p className="text-sm text-gray-300 mt-6 text-center">
                 No active incidents. All systems are operational.
               </p>
             </section>
 
             {/* Status History */}
             <section className="mt-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-bold text-dark-slate mb-6">
                 Status History
               </h2>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <p className="text-base text-gray-700 leading-relaxed mb-4">
+              <div className="bg-light-gray rounded-lg p-6">
+                <p className="text-base text-slate-700 leading-relaxed mb-4">
                   View detailed status history and incident reports:
                 </p>
                 <div className="flex flex-wrap gap-4">
                   <a
                     href="#"
-                    className="px-4 py-2 bg-gray-900 text-white rounded-lg text-sm font-semibold"
+                    className="px-4 py-2 bg-primary text-white rounded-lg text-sm font-semibold"
                   >
                     View Full History
                   </a>
                   <a
                     href="#"
-                    className="px-4 py-2 border border-gray-300 text-gray-900 rounded-lg text-sm font-semibold"
+                    className="px-4 py-2 border border-gray-300 text-dark-slate rounded-lg text-sm font-semibold"
                   >
                     Subscribe to Updates
                   </a>
@@ -215,13 +215,13 @@ export default function StatusPage() {
 
             {/* API Status Endpoint */}
             <section className="mt-12">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-bold text-dark-slate mb-6">
                 Status API
               </h2>
-              <p className="text-base text-gray-700 leading-relaxed mb-4">
-                Programmatically check service status using our Status API endpoint. This allows you to monitor our <strong className="text-gray-900">image compression API</strong> availability and integrate status checks into your applications:
+              <p className="text-base text-slate-700 leading-relaxed mb-4">
+                Programmatically check service status using our Status API endpoint. This allows you to monitor our <strong className="text-dark-slate">image compression API</strong> availability and integrate status checks into your applications:
               </p>
-              <div className="bg-gray-900 rounded-lg p-6 overflow-x-auto mb-6">
+              <div className="bg-slate-900 rounded-lg p-6 overflow-x-auto mb-6">
                 <pre className="text-gray-100 text-sm">
                   <code>{`GET https://api.imagecompressapi.com/v1/status
 
@@ -242,15 +242,15 @@ Response:
 
             {/* SEO Content Section */}
             <section className="mt-12 pt-8 border-t border-gray-200">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+              <h2 className="text-3xl font-bold text-dark-slate mb-6">
                 Service Reliability & Uptime
               </h2>
-              <div className="space-y-6 text-base text-gray-700 leading-relaxed">
+              <div className="space-y-6 text-base text-slate-700 leading-relaxed">
                 <p>
-                  ImageCompressAPI maintains a 99.9% uptime SLA for our <strong className="text-gray-900">image compression API</strong> and related services. Our infrastructure is designed for high availability with redundant systems, global CDN distribution, and automated failover mechanisms.
+                  ImageCompressAPI maintains a 99.9% uptime SLA for our <strong className="text-dark-slate">image compression API</strong> and related services. Our infrastructure is designed for high availability with redundant systems, global CDN distribution, and automated failover mechanisms.
                 </p>
                 <p>
-                  All services are monitored 24/7 with real-time alerting. When incidents occur, we provide transparent status updates and work quickly to resolve issues. Our <strong className="text-gray-900">image compression API</strong> status page provides real-time information about service health, response times, and any ongoing maintenance or incidents.
+                  All services are monitored 24/7 with real-time alerting. When incidents occur, we provide transparent status updates and work quickly to resolve issues. Our <strong className="text-dark-slate">image compression API</strong> status page provides real-time information about service health, response times, and any ongoing maintenance or incidents.
                 </p>
                 <p>
                   The status page is updated automatically and reflects the current state of all ImageCompressAPI services including the API endpoints, image processing infrastructure, CDN delivery network, and database systems. You can subscribe to status updates or use our Status API to programmatically check service availability.
@@ -265,27 +265,27 @@ Response:
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white">
+      <footer className="bg-dark-slate">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-6 text-base text-gray-600">
-              <a href="/docs" className="hover:text-gray-900">
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-6 text-base text-gray-300">
+              <a href="/docs" className="hover:text-accent transition-colors">
                 Docs
               </a>
-              <a href="/pricing" className="hover:text-gray-900">
+              <a href="/pricing" className="hover:text-accent transition-colors">
                 Pricing
               </a>
-              <a href="/status" className="hover:text-gray-900">
+              <a href="/status" className="hover:text-accent transition-colors">
                 API Status
               </a>
-              <a href="/terms" className="hover:text-gray-900">
+              <a href="/terms" className="hover:text-accent transition-colors">
                 Terms
               </a>
-              <a href="/privacy" className="hover:text-gray-900">
+              <a href="/privacy" className="hover:text-accent transition-colors">
                 Privacy
               </a>
             </div>
-            <p className="text-base text-gray-600">
+            <p className="text-base text-gray-400">
               © {new Date().getFullYear()} ImageCompressAPI. All rights reserved.
             </p>
           </div>

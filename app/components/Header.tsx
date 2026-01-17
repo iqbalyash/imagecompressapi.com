@@ -12,7 +12,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
+    <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
       <nav className="container mx-auto px-4 sm:px-6 lg:px-8 py-3">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
@@ -32,19 +32,19 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-8">
             <Link
               href="/docs"
-              className="text-base text-gray-600 hover:text-gray-900"
+              className="text-base text-slate-600 hover:text-primary transition-colors"
             >
               Docs
             </Link>
             <Link
               href="/pricing"
-              className="text-base text-gray-600 hover:text-gray-900"
+              className="text-base text-slate-600 hover:text-primary transition-colors"
             >
               Pricing
             </Link>
             <Link
               href="/#signup"
-              className="text-base px-5 py-2.5 bg-gray-900 text-white rounded-lg hover:bg-gray-800"
+              className="text-base px-5 py-2.5 bg-primary text-white rounded-lg hover:bg-accent transition-colors"
             >
               Get Started
             </Link>
@@ -58,17 +58,17 @@ export default function Header() {
             aria-expanded={isMenuOpen}
           >
             <span
-              className={`block w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
+              className={`block w-6 h-0.5 bg-primary transition-all duration-300 ${
                 isMenuOpen ? "rotate-45 translate-y-2" : ""
               }`}
             />
             <span
-              className={`block w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
+              className={`block w-6 h-0.5 bg-primary transition-all duration-300 ${
                 isMenuOpen ? "opacity-0" : ""
               }`}
             />
             <span
-              className={`block w-6 h-0.5 bg-gray-900 transition-all duration-300 ${
+              className={`block w-6 h-0.5 bg-primary transition-all duration-300 ${
                 isMenuOpen ? "-rotate-45 -translate-y-2" : ""
               }`}
             />
@@ -84,21 +84,21 @@ export default function Header() {
           <div className="flex flex-col gap-4 pt-4 pb-2">
             <Link
               href="/docs"
-              className="text-base text-gray-600 hover:text-gray-900"
+              className="text-base text-slate-600 hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Docs
             </Link>
             <Link
               href="/pricing"
-              className="text-base text-gray-600 hover:text-gray-900"
+              className="text-base text-slate-600 hover:text-primary transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Pricing
             </Link>
             <Link
               href="/#signup"
-              className="text-base px-5 py-2.5 bg-gray-900 text-white rounded-lg hover:bg-gray-800 inline-block text-center"
+              className="text-base px-5 py-2.5 bg-primary text-white rounded-lg hover:bg-accent transition-colors inline-block text-center"
               onClick={() => setIsMenuOpen(false)}
             >
               Get Started

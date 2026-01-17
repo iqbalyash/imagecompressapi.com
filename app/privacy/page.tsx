@@ -14,10 +14,10 @@ export default function PrivacyPage() {
       <main className="bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
               Privacy Policy
             </h1>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-gray-300 mb-8">
               Last updated: {new Date().toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
@@ -25,9 +25,9 @@ export default function PrivacyPage() {
               })}
             </p>
 
-            <div className="prose prose-lg max-w-none space-y-8 text-gray-700">
+            <div className="prose prose-lg max-w-none space-y-8 text-slate-700">
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   1. Introduction
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -36,31 +36,31 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   2. Information We Collect
                 </h2>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
+                <h3 className="text-xl font-semibold text-dark-slate mb-3 mt-6">
                   2.1 Account Information
                 </h3>
                 <p className="text-base leading-relaxed mb-4">
                   When you create an account, we collect information such as your email address, name, and payment information necessary to provide the Service.
                 </p>
                 
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
+                <h3 className="text-xl font-semibold text-dark-slate mb-3 mt-6">
                   2.2 API Usage Data
                 </h3>
                 <p className="text-base leading-relaxed mb-4">
                   We collect information about your API usage, including the number of requests, processing times, and error rates. This data helps us improve our Service and provide usage analytics.
                 </p>
 
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
+                <h3 className="text-xl font-semibold text-dark-slate mb-3 mt-6">
                   2.3 Images
                 </h3>
                 <p className="text-base leading-relaxed mb-4">
                   Images submitted through our API are processed and automatically deleted after processing is complete. We do not store your images permanently. Images may be temporarily cached for performance optimization and are deleted according to our retention policies.
                 </p>
 
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 mt-6">
+                <h3 className="text-xl font-semibold text-dark-slate mb-3 mt-6">
                   2.4 Technical Information
                 </h3>
                 <p className="text-base leading-relaxed mb-4">
@@ -69,7 +69,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   3. How We Use Your Information
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -87,7 +87,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   4. Image Processing and Storage
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -103,7 +103,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   5. Data Sharing and Disclosure
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -118,7 +118,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   6. Data Security
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -127,7 +127,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   7. Your Rights and Choices
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -148,7 +148,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   8. Cookies and Tracking Technologies
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -157,7 +157,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   9. Children's Privacy
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -166,7 +166,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   10. International Data Transfers
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -175,7 +175,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   11. Changes to This Privacy Policy
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -184,7 +184,7 @@ export default function PrivacyPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   12. Contact Us
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -201,27 +201,27 @@ export default function PrivacyPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white">
+      <footer className="bg-dark-slate">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-6 text-base text-gray-600">
-              <a href="/docs" className="hover:text-gray-900">
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-6 text-base text-gray-300">
+              <a href="/docs" className="hover:text-accent transition-colors">
                 Docs
               </a>
-              <a href="/pricing" className="hover:text-gray-900">
+              <a href="/pricing" className="hover:text-accent transition-colors">
                 Pricing
               </a>
-              <a href="/#status" className="hover:text-gray-900">
+              <a href="/#status" className="hover:text-accent transition-colors">
                 API Status
               </a>
-              <a href="/terms" className="hover:text-gray-900">
+              <a href="/terms" className="hover:text-accent transition-colors">
                 Terms
               </a>
-              <a href="/privacy" className="hover:text-gray-900">
+              <a href="/privacy" className="hover:text-accent transition-colors">
                 Privacy
               </a>
             </div>
-            <p className="text-base text-gray-600">
+            <p className="text-base text-gray-400">
               © {new Date().getFullYear()} ImageCompressAPI. All rights reserved.
             </p>
           </div>

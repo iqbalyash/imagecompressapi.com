@@ -14,10 +14,10 @@ export default function TermsPage() {
       <main className="bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
+            <h1 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
               Terms of Service
             </h1>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-lg text-gray-300 mb-8">
               Last updated: {new Date().toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
@@ -25,9 +25,9 @@ export default function TermsPage() {
               })}
             </p>
 
-            <div className="prose prose-lg max-w-none space-y-8 text-gray-700">
+            <div className="prose prose-lg max-w-none space-y-8 text-slate-700">
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   1. Acceptance of Terms
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -36,7 +36,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   2. Description of Service
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -45,7 +45,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   3. Use of Service
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -62,7 +62,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   4. API Keys and Authentication
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -71,7 +71,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   5. Image Processing and Storage
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -80,7 +80,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   6. Pricing and Payment
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -89,7 +89,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   7. Service Availability
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -98,7 +98,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   8. Intellectual Property
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -107,7 +107,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   9. Limitation of Liability
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -116,7 +116,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   10. Termination
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -125,7 +125,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   11. Changes to Terms
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -134,7 +134,7 @@ export default function TermsPage() {
               </section>
 
               <section>
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
+                <h2 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-4">
                   12. Contact Information
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
@@ -147,27 +147,27 @@ export default function TermsPage() {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white">
+      <footer className="bg-dark-slate">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-6 text-base text-gray-600">
-              <a href="/docs" className="hover:text-gray-900">
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-6 text-base text-gray-300">
+              <a href="/docs" className="hover:text-accent transition-colors">
                 Docs
               </a>
-              <a href="/pricing" className="hover:text-gray-900">
+              <a href="/pricing" className="hover:text-accent transition-colors">
                 Pricing
               </a>
-              <a href="/#status" className="hover:text-gray-900">
+              <a href="/#status" className="hover:text-accent transition-colors">
                 API Status
               </a>
-              <a href="/terms" className="hover:text-gray-900">
+              <a href="/terms" className="hover:text-accent transition-colors">
                 Terms
               </a>
-              <a href="/privacy" className="hover:text-gray-900">
+              <a href="/privacy" className="hover:text-accent transition-colors">
                 Privacy
               </a>
             </div>
-            <p className="text-base text-gray-600">
+            <p className="text-base text-gray-400">
               © {new Date().getFullYear()} ImageCompressAPI. All rights reserved.
             </p>
           </div>
