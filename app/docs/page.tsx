@@ -33,10 +33,10 @@ export default function DocsPage() {
             <h1 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
               Image Compression API Documentation
             </h1>
-            <p className="text-xl text-gray-300 mb-4 leading-relaxed">
+            <p className="text-xl text-slate-600 mb-4 leading-relaxed">
               Complete guide to using ImageCompressAPI for image compression, resizing, and format conversion. Our <strong className="text-dark-slate">image compression API</strong> and <strong className="text-dark-slate">image resize API</strong> provide developers with powerful tools to optimize images programmatically.
             </p>
-            <p className="text-base text-gray-300 mb-12">
+            <p className="text-base text-slate-600 mb-12">
               Get started in minutes with our REST API. Supports bulk image compression, AVIF and WebP conversion, custom image sizes, and more.
             </p>
 
@@ -115,13 +115,13 @@ export default function DocsPage() {
                         <td className="px-4 py-3 text-sm text-dark-slate font-medium">
                           image
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                          <td className="px-4 py-3 text-sm text-slate-600">
                           File
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Yes
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Image file to compress (JPEG, PNG, WebP, AVIF)
                         </td>
                       </tr>
@@ -129,13 +129,13 @@ export default function DocsPage() {
                         <td className="px-4 py-3 text-sm text-dark-slate font-medium">
                           quality
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Integer
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           No
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Compression quality (1-100, default: 80)
                         </td>
                       </tr>
@@ -143,13 +143,13 @@ export default function DocsPage() {
                         <td className="px-4 py-3 text-sm text-dark-slate font-medium">
                           format
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           String
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           No
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Output format: jpg, png, webp, avif (default: original)
                         </td>
                       </tr>
@@ -157,13 +157,13 @@ export default function DocsPage() {
                         <td className="px-4 py-3 text-sm text-dark-slate font-medium">
                           width
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Integer
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           No
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Resize width in pixels
                         </td>
                       </tr>
@@ -171,13 +171,13 @@ export default function DocsPage() {
                         <td className="px-4 py-3 text-sm text-dark-slate font-medium">
                           height
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Integer
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           No
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Resize height in pixels
                         </td>
                       </tr>
@@ -292,7 +292,7 @@ export default function DocsPage() {
                         <td className="px-4 py-3 text-sm text-dark-slate font-medium">
                           maintain_aspect
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Boolean. Maintain aspect ratio when resizing (default: true)
                         </td>
                       </tr>
@@ -300,7 +300,7 @@ export default function DocsPage() {
                         <td className="px-4 py-3 text-sm text-dark-slate font-medium">
                           crop
                         </td>
-                        <td className="px-4 py-3 text-sm text-gray-300">
+                        <td className="px-4 py-3 text-sm text-slate-600">
                           Boolean. Crop image to exact dimensions (default: false)
                         </td>
                       </tr>
@@ -337,28 +337,28 @@ export default function DocsPage() {
                     <code className="text-sm font-semibold text-dark-slate mr-4">400</code>
                     <div>
                       <p className="text-sm font-semibold text-dark-slate">Bad Request</p>
-                      <p className="text-sm text-gray-300">Invalid parameters or malformed request</p>
+                      <p className="text-sm text-slate-600">Invalid parameters or malformed request</p>
                     </div>
                   </div>
                   <div className="flex items-start p-3 bg-light-gray rounded">
                     <code className="text-sm font-semibold text-dark-slate mr-4">401</code>
                     <div>
                       <p className="text-sm font-semibold text-dark-slate">Unauthorized</p>
-                      <p className="text-sm text-gray-300">Invalid or missing API key</p>
+                      <p className="text-sm text-slate-600">Invalid or missing API key</p>
                     </div>
                   </div>
                   <div className="flex items-start p-3 bg-light-gray rounded">
                     <code className="text-sm font-semibold text-dark-slate mr-4">429</code>
                     <div>
                       <p className="text-sm font-semibold text-dark-slate">Rate Limit Exceeded</p>
-                      <p className="text-sm text-gray-300">Too many requests. Check your plan limits</p>
+                      <p className="text-sm text-slate-600">Too many requests. Check your plan limits</p>
                     </div>
                   </div>
                   <div className="flex items-start p-3 bg-light-gray rounded">
                     <code className="text-sm font-semibold text-dark-slate mr-4">500</code>
                     <div>
                       <p className="text-sm font-semibold text-dark-slate">Server Error</p>
-                      <p className="text-sm text-gray-300">Internal server error. Please try again later</p>
+                      <p className="text-sm text-slate-600">Internal server error. Please try again later</p>
                     </div>
                   </div>
                 </div>
@@ -392,19 +392,19 @@ export default function DocsPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="p-4 border border-gray-200 rounded-lg">
                     <h4 className="font-semibold text-dark-slate mb-2">JavaScript/Node.js</h4>
-                    <code className="text-sm text-gray-300">npm install @imagecompressapi/sdk</code>
+                    <code className="text-sm text-slate-700">npm install @imagecompressapi/sdk</code>
                   </div>
                   <div className="p-4 border border-gray-200 rounded-lg">
                     <h4 className="font-semibold text-dark-slate mb-2">Python</h4>
-                    <code className="text-sm text-gray-300">pip install imagecompressapi</code>
+                    <code className="text-sm text-slate-700">pip install imagecompressapi</code>
                   </div>
                   <div className="p-4 border border-gray-200 rounded-lg">
                     <h4 className="font-semibold text-dark-slate mb-2">PHP</h4>
-                    <code className="text-sm text-gray-300">composer require imagecompressapi/sdk</code>
+                    <code className="text-sm text-slate-700">composer require imagecompressapi/sdk</code>
                   </div>
                   <div className="p-4 border border-gray-200 rounded-lg">
                     <h4 className="font-semibold text-dark-slate mb-2">Ruby</h4>
-                    <code className="text-sm text-gray-300">gem install imagecompressapi</code>
+                    <code className="text-sm text-slate-700">gem install imagecompressapi</code>
                   </div>
                 </div>
               </section>
