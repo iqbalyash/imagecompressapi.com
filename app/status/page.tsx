@@ -1,7 +1,23 @@
 export const metadata = {
-  title: "API Status",
+  title: "API Status & Uptime | ImageCompressAPI Service Health",
   description:
-    "Real-time status and uptime information for ImageCompressAPI. Check service health, recent incidents, and system status.",
+    "Real-time API status and uptime information for ImageCompressAPI. Check service health, recent incidents, system metrics, and 99.9% uptime guarantee. Monitor image compression API availability.",
+  keywords: [
+    "API status",
+    "service status",
+    "uptime",
+    "API health",
+    "image compression API status",
+    "service availability",
+    "system status",
+    "API monitoring",
+  ],
+  openGraph: {
+    title: "API Status & Uptime | ImageCompressAPI Service Health",
+    description:
+      "Real-time status and uptime information for ImageCompressAPI. Check service health, recent incidents, and system status.",
+    url: "https://imagecompressapi.com/status",
+  },
 };
 
 export default function StatusPage() {
@@ -85,10 +101,13 @@ export default function StatusPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-              API Status
+              API Status & Service Health
             </h1>
-            <p className="text-lg text-gray-600 mb-12">
-              Real-time status and uptime information for all ImageCompressAPI services.
+            <p className="text-xl text-gray-600 mb-4 leading-relaxed">
+              Real-time status and uptime information for all ImageCompressAPI services. Monitor the health of our <strong className="text-gray-900">image compression API</strong>, image processing infrastructure, CDN, and database systems.
+            </p>
+            <p className="text-base text-gray-600 mb-12">
+              We maintain a 99.9% uptime SLA with transparent status reporting and incident tracking.
             </p>
 
             {/* Overall Status */}
@@ -228,9 +247,9 @@ export default function StatusPage() {
                 Status API
               </h2>
               <p className="text-base text-gray-700 leading-relaxed mb-4">
-                Programmatically check service status using our Status API:
+                Programmatically check service status using our Status API endpoint. This allows you to monitor our <strong className="text-gray-900">image compression API</strong> availability and integrate status checks into your applications:
               </p>
-              <div className="bg-gray-900 rounded-lg p-6 overflow-x-auto">
+              <div className="bg-gray-900 rounded-lg p-6 overflow-x-auto mb-6">
                 <pre className="text-gray-100 text-sm">
                   <code>{`GET https://api.imagecompressapi.com/v1/status
 
@@ -246,6 +265,27 @@ Response:
   "timestamp": "2024-01-20T10:00:00Z"
 }`}</code>
                 </pre>
+              </div>
+            </section>
+
+            {/* SEO Content Section */}
+            <section className="mt-12 pt-8 border-t border-gray-200">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                Service Reliability & Uptime
+              </h2>
+              <div className="space-y-6 text-base text-gray-700 leading-relaxed">
+                <p>
+                  ImageCompressAPI maintains a 99.9% uptime SLA for our <strong className="text-gray-900">image compression API</strong> and related services. Our infrastructure is designed for high availability with redundant systems, global CDN distribution, and automated failover mechanisms.
+                </p>
+                <p>
+                  All services are monitored 24/7 with real-time alerting. When incidents occur, we provide transparent status updates and work quickly to resolve issues. Our <strong className="text-gray-900">image compression API</strong> status page provides real-time information about service health, response times, and any ongoing maintenance or incidents.
+                </p>
+                <p>
+                  The status page is updated automatically and reflects the current state of all ImageCompressAPI services including the API endpoints, image processing infrastructure, CDN delivery network, and database systems. You can subscribe to status updates or use our Status API to programmatically check service availability.
+                </p>
+                <p>
+                  For mission-critical applications, we recommend implementing retry logic and monitoring our status API. Our service status is also available via webhook notifications, allowing you to integrate status monitoring directly into your applications and alerting systems.
+                </p>
               </div>
             </section>
           </div>

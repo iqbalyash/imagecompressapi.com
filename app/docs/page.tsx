@@ -1,7 +1,23 @@
 export const metadata = {
-  title: "API Documentation",
+  title: "Image Compression API Documentation | ImageCompressAPI",
   description:
-    "Complete API documentation for ImageCompressAPI. Learn how to compress, resize, and convert images using our REST API.",
+    "Complete API documentation for ImageCompressAPI. Learn how to use our image compression API, image resize API, bulk image compression, AVIF and WebP conversion. Get started with code examples and SDKs.",
+  keywords: [
+    "image compression API",
+    "image resize API",
+    "bulk image compression API",
+    "AVIF compression API",
+    "WebP compression API",
+    "image compression documentation",
+    "REST API documentation",
+    "image optimization API",
+  ],
+  openGraph: {
+    title: "Image Compression API Documentation | ImageCompressAPI",
+    description:
+      "Complete API documentation for ImageCompressAPI. Learn how to compress, resize, and convert images using our REST API.",
+    url: "https://imagecompressapi.com/docs",
+  },
 };
 
 export default function DocsPage() {
@@ -42,10 +58,13 @@ export default function DocsPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-              API Documentation
+              Image Compression API Documentation
             </h1>
-            <p className="text-lg text-gray-600 mb-12">
-              Complete guide to using ImageCompressAPI for image compression, resizing, and format conversion.
+            <p className="text-xl text-gray-600 mb-4 leading-relaxed">
+              Complete guide to using ImageCompressAPI for image compression, resizing, and format conversion. Our <strong className="text-gray-900">image compression API</strong> and <strong className="text-gray-900">image resize API</strong> provide developers with powerful tools to optimize images programmatically.
+            </p>
+            <p className="text-base text-gray-600 mb-12">
+              Get started in minutes with our REST API. Supports bulk image compression, AVIF and WebP conversion, custom image sizes, and more.
             </p>
 
             <div className="space-y-12">
@@ -395,7 +414,7 @@ export default function DocsPage() {
                   SDKs and Libraries
                 </h2>
                 <p className="text-base text-gray-700 leading-relaxed mb-4">
-                  Official SDKs are available for popular programming languages:
+                  Official SDKs are available for popular programming languages to simplify integration with our <strong className="text-gray-900">image compression API</strong>:
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="p-4 border border-gray-200 rounded-lg">
@@ -414,6 +433,27 @@ export default function DocsPage() {
                     <h4 className="font-semibold text-gray-900 mb-2">Ruby</h4>
                     <code className="text-sm text-gray-600">gem install imagecompressapi</code>
                   </div>
+                </div>
+              </section>
+
+              {/* SEO Content Section */}
+              <section className="mt-12 pt-8 border-t border-gray-200">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                  Getting Started with Image Compression API
+                </h2>
+                <div className="space-y-6 text-base text-gray-700 leading-relaxed">
+                  <p>
+                    Our <strong className="text-gray-900">image compression API</strong> provides a simple, powerful way to optimize images programmatically. Whether you're building a content management system, e-commerce platform, or mobile application, our API handles image compression seamlessly. The <strong className="text-gray-900">bulk image compression API</strong> allows you to process hundreds of images in a single request, making it ideal for batch operations and automated workflows.
+                  </p>
+                  <p>
+                    The <strong className="text-gray-900">image resize API</strong> gives you precise control over output sizes. You can specify exact dimensions, maintain aspect ratios, or crop images to specific requirements. When combined with compression, our <strong className="text-gray-900">image compression and resize API</strong> becomes a complete solution for all your image optimization needs.
+                  </p>
+                  <p>
+                    Modern web performance demands modern formats. Our <strong className="text-gray-900">AVIF image compression API</strong> delivers superior compression ratios compared to traditional formats, often reducing file sizes by 50% or more while maintaining visual quality. Similarly, our <strong className="text-gray-900">WebP image compression API</strong> provides excellent browser compatibility and significant file size reductions.
+                  </p>
+                  <p>
+                    All API endpoints use standard REST conventions and return JSON responses. Authentication is handled via API keys, which you can obtain by signing up for a free account. The API supports both synchronous and asynchronous processing, with webhook notifications available for long-running operations.
+                  </p>
                 </div>
               </section>
             </div>
