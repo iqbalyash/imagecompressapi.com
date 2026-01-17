@@ -1,5 +1,11 @@
 [build]
   command = "npm run build"
 
+[build.environment]
+  NODE_VERSION = "20"
+
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+# Important: Ensure Netlify dashboard build command is set to "npm run build" 
+# or leave it empty to use the command above from netlify.toml
