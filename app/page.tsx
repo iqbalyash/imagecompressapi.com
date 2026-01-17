@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export const metadata = {
-  title: "Home",
+  title: "Bulk Image Compression API with Custom Sizes | ImageCompressAPI",
   description:
-    "Image compression and resize API for developers. Compress images in bulk, convert to AVIF and WebP, and define custom image sizes using a fast API.",
+    "Image compress API for developers. Bulk image compression, image resize API, AVIF and WebP image compression with fast CDN delivery.",
 };
 
 export default function Home() {
