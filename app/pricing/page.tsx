@@ -22,6 +22,7 @@ export default function PricingPage() {
                 height={50}
                 className="h-10 sm:h-12 w-auto"
                 priority
+                unoptimized
               />
             </a>
             <div className="flex items-center gap-8">

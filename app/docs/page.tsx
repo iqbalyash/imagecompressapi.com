@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "Image Compression API Documentation | ImageCompressAPI",
   description:
@@ -35,6 +37,7 @@ export default function DocsPage() {
                 height={50}
                 className="h-10 sm:h-12 w-auto"
                 priority
+                unoptimized
               />
             </a>
             <div className="flex items-center gap-8">
