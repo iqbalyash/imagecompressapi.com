@@ -35,6 +35,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+  icons: {
+    icon: "/Image_compress_api.png",
+    shortcut: "/Image_compress_api.png",
+    apple: "/Image_compress_api.png",
+  },
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -82,6 +87,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="DFLnzq2xOJB4Ck2HxzSRwXPlaccGzDrZCe7bTUAolKM" />
+        <link rel="icon" href="/Image_compress_api.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

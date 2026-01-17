@@ -1,4 +1,5 @@
 import Pricing from "../components/Pricing";
+import Image from "next/image";
 
 export const metadata = {
   title: "Pricing",
@@ -13,8 +14,15 @@ export default function PricingPage() {
       <header className="sticky top-0 z-50 bg-white border-b border-gray-200">
         <nav className="container mx-auto px-4 sm:px-6 lg:px-8 py-5">
           <div className="flex items-center justify-between">
-            <a href="/" className="text-2xl font-bold text-gray-900">
-              ImageCompressAPI
+            <a href="/" className="flex items-center">
+              <Image
+                src="/image_compress_api_logo.png"
+                alt="ImageCompressAPI"
+                width={180}
+                height={40}
+                className="h-8 w-auto"
+                priority
+              />
             </a>
             <div className="flex items-center gap-8">
               <a
