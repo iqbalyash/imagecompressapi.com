@@ -286,7 +286,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold text-dark-slate mb-2">
                   E-commerce Platforms
                 </h3>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-dark-slate">
                   Optimize product images for faster page loads and better user
                   experience
                 </p>
@@ -295,7 +295,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold text-dark-slate mb-2">
                   Content Management
                 </h3>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-dark-slate">
                   Automatically compress user-uploaded images in CMS and blog
                   platforms
                 </p>
@@ -304,7 +304,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold text-dark-slate mb-2">
                   Mobile Apps
                 </h3>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-dark-slate">
                   Reduce app size and bandwidth usage with optimized images
                 </p>
               </div>
@@ -312,7 +312,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold text-dark-slate mb-2">
                   Social Media Tools
                 </h3>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-dark-slate">
                   Batch process images for social media posts and campaigns
                 </p>
               </div>
@@ -320,7 +320,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold text-dark-slate mb-2">
                   Portfolio Websites
                 </h3>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-dark-slate">
                   Showcase high-quality images with minimal file sizes
                 </p>
               </div>
@@ -328,7 +328,7 @@ export default function Home() {
                 <h3 className="text-lg font-semibold text-dark-slate mb-2">
                   API Integrations
                 </h3>
-                <p className="text-sm text-gray-300">
+                <p className="text-sm text-dark-slate">
                   Add image optimization to your existing APIs and services
                 </p>
               </div>
