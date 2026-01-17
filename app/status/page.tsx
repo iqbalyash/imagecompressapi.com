@@ -75,10 +75,10 @@ export default function StatusPage() {
             <h1 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
               API Status & Service Health
             </h1>
-            <p className="text-xl text-gray-300 mb-4 leading-relaxed">
+            <p className="text-xl text-slate-600 mb-4 leading-relaxed">
               Real-time status and uptime information for all ImageCompressAPI services. Monitor the health of our <strong className="text-dark-slate">image compression API</strong>, image processing infrastructure, CDN, and database systems.
             </p>
-            <p className="text-base text-gray-300 mb-12">
+            <p className="text-base text-slate-600 mb-12">
               We maintain a 99.9% uptime SLA with transparent status reporting and incident tracking.
             </p>
 
@@ -116,13 +116,13 @@ export default function StatusPage() {
                     </div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
-                        <p className="text-sm text-gray-300 mb-1">Uptime (30 days)</p>
+                        <p className="text-sm text-slate-600 mb-1">Uptime (30 days)</p>
                         <p className="text-lg font-semibold text-dark-slate">
                           {service.uptime}
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-gray-300 mb-1">Avg Response Time</p>
+                        <p className="text-sm text-slate-600 mb-1">Avg Response Time</p>
                         <p className="text-lg font-semibold text-dark-slate">
                           {service.responseTime}
                         </p>
@@ -141,15 +141,15 @@ export default function StatusPage() {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                 <div className="bg-light-gray rounded-lg p-6 text-center">
                   <p className="text-3xl font-bold text-dark-slate mb-2">99.9%</p>
-                  <p className="text-sm text-gray-300">Overall Uptime</p>
+                  <p className="text-sm text-slate-600">Overall Uptime</p>
                 </div>
                 <div className="bg-light-gray rounded-lg p-6 text-center">
                   <p className="text-3xl font-bold text-dark-slate mb-2">150ms</p>
-                  <p className="text-sm text-gray-300">Avg Response Time</p>
+                  <p className="text-sm text-slate-600">Avg Response Time</p>
                 </div>
                 <div className="bg-light-gray rounded-lg p-6 text-center">
                   <p className="text-3xl font-bold text-dark-slate mb-2">0</p>
-                  <p className="text-sm text-gray-300">Active Incidents</p>
+                  <p className="text-sm text-slate-600">Active Incidents</p>
                 </div>
               </div>
             </section>
@@ -170,7 +170,7 @@ export default function StatusPage() {
                         <h3 className="text-lg font-semibold text-dark-slate mb-1">
                           {incident.title}
                         </h3>
-                        <p className="text-sm text-gray-300">{incident.date}</p>
+                        <p className="text-sm text-slate-600">{incident.date}</p>
                       </div>
                       <span className="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm font-semibold">
                         {incident.status}
@@ -182,7 +182,7 @@ export default function StatusPage() {
                   </div>
                 ))}
               </div>
-              <p className="text-sm text-gray-300 mt-6 text-center">
+              <p className="text-sm text-slate-600 mt-6 text-center">
                 No active incidents. All systems are operational.
               </p>
             </section>

@@ -74,7 +74,7 @@ export default function Pricing() {
           <h2 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
             Simple, Transparent Pricing
           </h2>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-slate-600 max-w-2xl mx-auto">
             Choose the plan that fits your needs. All plans include our full API access.
           </p>
         </div>
@@ -101,7 +101,7 @@ export default function Pricing() {
                 <h3 className="text-2xl sm:text-3xl font-bold text-dark-slate mb-3 leading-tight">
                   {plan.name}
                 </h3>
-                <p className="text-base sm:text-lg text-gray-300 mb-6 leading-relaxed">
+                <p className="text-base sm:text-lg text-slate-600 mb-6 leading-relaxed">
                   {plan.description}
                 </p>
 
@@ -111,7 +111,7 @@ export default function Pricing() {
                       {plan.price}
                     </span>
                     {plan.period !== "pricing" && (
-                      <span className="text-lg sm:text-xl text-gray-300 ml-2">
+                      <span className="text-lg sm:text-xl text-slate-600 ml-2">
                         /{plan.period}
                       </span>
                     )}
@@ -135,7 +135,7 @@ export default function Pricing() {
                           d="M5 13l4 4L19 7"
                         />
                       </svg>
-                      <span className="text-sm sm:text-base text-gray-300 leading-relaxed">
+                      <span className="text-sm sm:text-base text-slate-600 leading-relaxed">
                         {feature}
                       </span>
                     </li>
@@ -154,7 +154,7 @@ export default function Pricing() {
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-base text-gray-300">
+          <p className="text-base text-slate-600">
             Start with the Free plan. Upgrade anytime. No credit card required.
           </p>
         </div>
@@ -168,7 +168,7 @@ export default function Pricing() {
               </h3>
               <div className="flex items-baseline justify-center mb-6">
                 <span className="text-5xl font-bold text-dark-slate">$1</span>
-                <span className="text-2xl text-gray-300 ml-2">per 1,000 images</span>
+                <span className="text-2xl text-slate-600 ml-2">per 1,000 images</span>
               </div>
             </div>
 
@@ -187,7 +187,7 @@ export default function Pricing() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span className="text-base text-gray-300">No monthly commitment</span>
+                <span className="text-base text-slate-600">No monthly commitment</span>
               </div>
               <div className="flex items-start">
                 <svg
@@ -203,7 +203,7 @@ export default function Pricing() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span className="text-base text-gray-300">Same API features</span>
+                <span className="text-base text-slate-600">Same API features</span>
               </div>
               <div className="flex items-start">
                 <svg
@@ -219,7 +219,7 @@ export default function Pricing() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span className="text-base text-gray-300">Ideal for scripts and startups</span>
+                <span className="text-base text-slate-600">Ideal for scripts and startups</span>
               </div>
               <div className="flex items-start">
                 <svg
@@ -235,7 +235,7 @@ export default function Pricing() {
                     d="M5 13l4 4L19 7"
                   />
                 </svg>
-                <span className="text-base text-gray-300">Pay only for what you use</span>
+                <span className="text-base text-slate-600">Pay only for what you use</span>
               </div>
             </div>
 
@@ -256,7 +256,7 @@ export default function Pricing() {
             <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-dark-slate mb-3 sm:mb-4">
               Included in All Plans
             </h3>
-            <p className="text-lg sm:text-xl text-gray-300">
+            <p className="text-lg sm:text-xl text-slate-600">
               Every plan includes our full suite of API features
             </p>
           </div>
@@ -276,7 +276,7 @@ export default function Pricing() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-base text-gray-300">
+              <span className="text-base text-slate-600">
                 Bulk image compression API
               </span>
             </div>
@@ -294,7 +294,7 @@ export default function Pricing() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-base text-gray-300">
+              <span className="text-base text-slate-600">
                 Image resize API
               </span>
             </div>
@@ -312,7 +312,7 @@ export default function Pricing() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-base text-gray-300">
+              <span className="text-base text-slate-600">
                 Image compression and resize in one request
               </span>
             </div>
@@ -330,7 +330,7 @@ export default function Pricing() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-base text-gray-300">
+              <span className="text-base text-slate-600">
                 AVIF image compression API
               </span>
             </div>
@@ -348,7 +348,7 @@ export default function Pricing() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-base text-gray-300">
+              <span className="text-base text-slate-600">
                 WebP image compression API
               </span>
             </div>
@@ -366,7 +366,7 @@ export default function Pricing() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-base text-gray-300">
+              <span className="text-base text-slate-600">
                 Privacy-first auto deletion
               </span>
             </div>
@@ -384,7 +384,7 @@ export default function Pricing() {
                   d="M5 13l4 4L19 7"
                 />
               </svg>
-              <span className="text-base text-gray-300">
+              <span className="text-base text-slate-600">
                 API-first SaaS
               </span>
             </div>
@@ -410,7 +410,7 @@ export default function Pricing() {
               <h4 className="text-lg sm:text-xl font-semibold text-dark-slate mb-2 sm:mb-3">
                 Do you offer a free trial?
               </h4>
-              <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
                 Yes! All paid plans include a 14-day free trial. You can also start with our Free plan which includes 500 images per month with no credit card required.
               </p>
             </div>
@@ -418,7 +418,7 @@ export default function Pricing() {
               <h4 className="text-lg sm:text-xl font-semibold text-dark-slate mb-2 sm:mb-3">
                 Is this cheaper than Tinify?
               </h4>
-              <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
                 Yes, ImageCompressAPI offers lower pricing than Tinify. We also provide additional features like AVIF support, bulk compression, and custom image sizes that Tinify doesn't offer.
               </p>
             </div>
@@ -426,7 +426,7 @@ export default function Pricing() {
               <h4 className="text-lg sm:text-xl font-semibold text-dark-slate mb-2 sm:mb-3">
                 Is bulk image compression supported?
               </h4>
-              <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
                 Yes, bulk image compression is supported on all plans. You can process multiple images in a single API request, making it efficient for batch operations and automated workflows.
               </p>
             </div>
@@ -434,7 +434,7 @@ export default function Pricing() {
               <h4 className="text-lg sm:text-xl font-semibold text-dark-slate mb-2 sm:mb-3">
                 Do you store uploaded images?
               </h4>
-              <p className="text-sm sm:text-base text-gray-300 leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
                 No, we follow a privacy-first approach. Images are automatically deleted after processing to ensure your data privacy and security. We never store your images permanently.
               </p>
             </div>

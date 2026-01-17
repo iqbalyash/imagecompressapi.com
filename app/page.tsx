@@ -47,7 +47,7 @@ export default function Home() {
               <h2 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
                 Why Choose Us
               </h2>
-              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+              <p className="text-xl text-slate-600 max-w-2xl mx-auto">
                 Everything you need for fast, reliable image compression
               </p>
             </div>
@@ -57,7 +57,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Bulk Image Compression API
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Process hundreds of images simultaneously with our batch compression API
                 </p>
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Custom Image Resize API
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Resize images to exact dimensions or maintain aspect ratios with custom sizing
                 </p>
               </div>
@@ -75,7 +75,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   AVIF and WebP Image Compression
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Convert and compress images to modern formats like AVIF and WebP for optimal performance
                 </p>
               </div>
@@ -84,7 +84,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Lossy and Lossless Compression
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Choose between lossy compression for smaller files or lossless for maximum quality
                 </p>
               </div>
@@ -93,7 +93,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Fast API with CDN Delivery
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Lightning-fast processing with global CDN delivery for instant image access worldwide
                 </p>
               </div>
@@ -102,7 +102,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Privacy-first (auto delete images)
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Images are automatically deleted after processing to ensure your data privacy and security
                 </p>
               </div>
@@ -117,7 +117,7 @@ export default function Home() {
               <h2 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
                 How It Works
               </h2>
-              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+              <p className="text-xl text-slate-600 max-w-2xl mx-auto">
                 Simple four-step process to optimize your images
               </p>
             </div>
@@ -129,7 +129,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Upload image or image URL
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                  <p className="text-base text-slate-600 leading-relaxed">
                   Send your image file directly or provide a URL to fetch the image
                 </p>
               </div>
@@ -140,7 +140,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Choose format, size, and compression
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Select output format (AVIF, WebP, JPG, PNG), dimensions, and quality settings
                 </p>
               </div>
@@ -151,7 +151,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   API processes images instantly
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Our infrastructure compresses and optimizes your images in milliseconds
                 </p>
               </div>
@@ -162,7 +162,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Receive optimized image URLs
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Get CDN-delivered URLs for your compressed images ready to use
                 </p>
               </div>
@@ -189,7 +189,7 @@ export default function Home() {
               <h2 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
                 API Features
               </h2>
-              <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+              <p className="text-xl text-slate-600 max-w-2xl mx-auto">
                 Powerful features for all your image optimization needs
               </p>
             </div>
@@ -199,7 +199,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Bulk uploads
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Upload and process multiple images in a single API call for efficient batch operations
                 </p>
               </div>
@@ -208,7 +208,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Custom width & height
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Specify exact dimensions for your images with precise width and height controls
                 </p>
               </div>
@@ -217,7 +217,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Aspect ratio control
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Maintain or modify aspect ratios while resizing images to fit your design requirements
                 </p>
               </div>
@@ -226,7 +226,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Format conversion
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Convert images between AVIF, WebP, JPG, and PNG formats with automatic optimization
                 </p>
               </div>
@@ -235,7 +235,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Quality control
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Adjust compression quality from 1-100 to balance file size and image quality
                 </p>
               </div>
@@ -244,7 +244,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   API keys
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Secure authentication with API keys for protected access to your image processing
                 </p>
               </div>
@@ -253,7 +253,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Usage tracking
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Monitor your API usage with detailed analytics and real-time usage statistics
                 </p>
               </div>
@@ -262,7 +262,7 @@ export default function Home() {
                 <h3 className="text-xl font-semibold text-dark-slate mb-3">
                   Rate limiting
                 </h3>
-                <p className="text-base text-gray-300 leading-relaxed">
+                <p className="text-base text-slate-600 leading-relaxed">
                   Built-in rate limiting ensures fair usage and API stability for all users
                 </p>
               </div>
@@ -277,7 +277,7 @@ export default function Home() {
               <h2 className="text-3xl sm:text-4xl font-bold text-dark-slate mb-4">
                 Use Cases
               </h2>
-              <p className="text-gray-300 max-w-2xl mx-auto">
+              <p className="text-slate-600 max-w-2xl mx-auto">
                 Perfect for a wide range of applications
               </p>
             </div>
@@ -344,7 +344,7 @@ export default function Home() {
                 <h2 className="text-3xl sm:text-4xl font-bold text-dark-slate mb-4">
                   ImageCompressAPI vs TinyPNG
                 </h2>
-                <p className="text-gray-300 max-w-2xl mx-auto">
+                <p className="text-slate-600 max-w-2xl mx-auto">
                   See how we compare to the leading image compression tool
                 </p>
               </div>
