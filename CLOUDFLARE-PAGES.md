@@ -4,21 +4,23 @@
 
 Configure the following in your Cloudflare Pages dashboard:
 
-- **Build command**: `npm run build`
-- **Build output directory**: `.next`
+- **Build command**: `CF_PAGES=1 npm run build`
+- **Build output directory**: `out`
 - **Root directory**: `/` (or leave empty)
 - **Node.js version**: 20
 
 ## Environment Variables
 
-No environment variables are required for basic deployment.
+Add the following environment variable in Cloudflare Pages:
+- `CF_PAGES=1` (or add `CF_PAGES` to your build command)
 
 ## Framework Preset
 
-Select **Next.js** as the framework preset, or leave as "None" and use the settings above.
+Select **None** or **Static** (not Next.js preset, as we're using static export).
 
 ## Notes
 
-- Cloudflare Pages will automatically detect Next.js and configure accordingly
-- The build command `npm run build` will create the `.next` directory
-- Cloudflare Pages will handle static asset optimization automatically
+- The `CF_PAGES=1` environment variable triggers static export mode in next.config.ts
+- This creates an `/out` directory which Cloudflare Pages expects
+- All pages are statically generated for fast performance
+- No server-side features are used (perfect for Cloudflare Pages)
