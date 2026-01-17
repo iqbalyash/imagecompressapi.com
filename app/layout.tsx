@@ -6,8 +6,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: {
-    default: "Bulk Image Compression API with Custom Sizes | ImageCompressAPI",
-    template: "%s | ImageCompressAPI",
+    default: "Bulk image compression API",
+    template: "%s | Bulk image compression API",
   },
   description:
     "Image compression and resize API for developers. Compress images in bulk, convert to AVIF and WebP, and define custom image sizes using a fast API.",
