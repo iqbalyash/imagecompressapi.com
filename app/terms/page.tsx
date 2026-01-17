@@ -157,7 +157,7 @@ export default function TermsPage() {
               <a href="/pricing" className="hover:text-accent transition-colors">
                 Pricing
               </a>
-              <a href="/#status" className="hover:text-accent transition-colors">
+              <a href="/status" className="hover:text-accent transition-colors">
                 API Status
               </a>
               <a href="/terms" className="hover:text-accent transition-colors">
