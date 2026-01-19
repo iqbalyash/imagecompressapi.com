@@ -17,7 +17,7 @@ export default function TermsPage() {
             <h1 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
               Terms of Service
             </h1>
-            <p className="text-lg text-gray-300 mb-8">
+            <p className="text-lg text-slate-600 mb-8">
               Last updated: {new Date().toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
@@ -31,7 +31,7 @@ export default function TermsPage() {
                   1. Acceptance of Terms
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
-                  By accessing and using ImageCompressAPI ("Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.
+                  By accessing and using ImageCompressAPI ("Service"), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service. Please also review our <a href="/privacy" className="text-primary hover:text-primary-700 underline font-medium">Privacy Policy</a> and return to our <a href="/" className="text-primary hover:text-primary-700 underline font-medium">homepage</a> to learn more about our services.
                 </p>
               </section>
 

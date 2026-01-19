@@ -37,7 +37,7 @@ export default function DocsPage() {
               Complete guide to using ImageCompressAPI for image compression, resizing, and format conversion. Our <strong className="text-dark-slate">image compression API</strong> and <strong className="text-dark-slate">image resize API</strong> provide developers with powerful tools to optimize images programmatically.
             </p>
             <p className="text-base text-slate-600 mb-12">
-              Get started in minutes with our REST API. Supports bulk image compression, AVIF and WebP conversion, custom image sizes, and more.
+              Get started in minutes with our REST API. Supports bulk image compression, AVIF and WebP conversion, custom image sizes, and more. Need help choosing a plan? Check our <a href="/pricing" className="text-primary hover:text-primary-700 underline font-medium">pricing page</a>.
             </p>
 
             <div className="space-y-12">
@@ -67,7 +67,7 @@ export default function DocsPage() {
                   </pre>
                 </div>
                 <p className="text-base text-slate-700 leading-relaxed">
-                  Get your API key by signing up for a free account. No credit card required.
+                  Get your API key by signing up for a free account. No credit card required. View our <a href="/pricing" className="text-primary hover:text-primary-700 underline font-medium">pricing plans</a> to choose the right plan for your needs.
                 </p>
               </section>
 
@@ -370,7 +370,7 @@ export default function DocsPage() {
                   Rate Limits
                 </h2>
                 <p className="text-base text-slate-700 leading-relaxed mb-4">
-                  Rate limits vary by plan. Rate limit information is included in response headers:
+                  Rate limits vary by <a href="/pricing" className="text-primary hover:text-primary-700 underline font-medium">plan</a>. Rate limit information is included in response headers:
                 </p>
                 <div className="bg-light-gray rounded-lg p-4 mb-4">
                   <code className="text-sm">
@@ -425,7 +425,7 @@ export default function DocsPage() {
                     Modern web performance demands modern formats. Our <strong className="text-dark-slate">AVIF image compression API</strong> delivers superior compression ratios compared to traditional formats, often reducing file sizes by 50% or more while maintaining visual quality. Similarly, our <strong className="text-dark-slate">WebP image compression API</strong> provides excellent browser compatibility and significant file size reductions.
                   </p>
                   <p>
-                    All API endpoints use standard REST conventions and return JSON responses. Authentication is handled via API keys, which you can obtain by signing up for a free account. The API supports both synchronous and asynchronous processing, with webhook notifications available for long-running operations.
+                    All API endpoints use standard REST conventions and return JSON responses. Authentication is handled via API keys, which you can obtain by signing up for a <a href="/pricing" className="text-primary hover:text-primary-700 underline font-medium">free account</a>. The API supports both synchronous and asynchronous processing, with webhook notifications available for long-running operations. Monitor our <a href="/status" className="text-primary hover:text-primary-700 underline font-medium">API status</a> for real-time service health and uptime information.
                   </p>
                 </div>
               </section>

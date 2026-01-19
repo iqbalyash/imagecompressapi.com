@@ -411,7 +411,7 @@ export default function Home() {
                       </tr>
                       <tr>
                         <td className="px-6 py-4 text-sm text-dark-slate font-medium">
-                          Transparent pricing
+                          Transparent <a href="/pricing" className="text-primary hover:text-primary-700 underline font-medium">pricing</a>
                         </td>
                         <td className="px-6 py-4 text-center">
                           <span className="text-green-500 font-semibold">Yes</span>
@@ -452,7 +452,7 @@ export default function Home() {
                   Our <strong className="text-dark-slate">image compress API</strong> provides developers with a powerful, 
                   scalable solution for optimizing images programmatically. Whether you're building a content management system, 
                   e-commerce platform, or mobile application, our API handles image compression seamlessly. The <strong className="text-dark-slate">bulk image compression API</strong> 
-                  allows you to process hundreds of images in a single request, making it ideal for batch operations and automated workflows.
+                  allows you to process hundreds of images in a single request, making it ideal for batch operations and automated workflows. Learn more in our <a href="/docs" className="text-primary hover:text-primary-700 underline font-medium">API documentation</a>.
                 </p>
 
                 <p className="text-base leading-relaxed">
@@ -475,13 +475,13 @@ export default function Home() {
                   seamlessly with your existing workflow. Automatically compress uploaded images, optimize media library files, and 
                   reduce storage costs. The API works with any WordPress setup, whether you're using custom themes, popular page builders, 
                   or headless WordPress configurations. With webhook support, you can process images asynchronously without blocking 
-                  user uploads.
+                  user uploads. Check our <a href="/status" className="text-primary hover:text-primary-700 underline font-medium">API status page</a> for real-time service health and uptime information.
                 </p>
 
                 <p className="text-base leading-relaxed">
-                  All our APIs are built with developer experience in mind. Simple REST endpoints, comprehensive documentation, 
+                  All our APIs are built with developer experience in mind. Simple REST endpoints, comprehensive <a href="/docs" className="text-primary hover:text-primary-700 underline font-medium">documentation</a>, 
                   and SDK support for popular languages make integration straightforward. Whether you're processing user uploads, 
-                  optimizing product images, or managing media assets, our image compression and resize API scales with your needs.
+                  optimizing product images, or managing media assets, our image compression and resize API scales with your needs. View our <a href="/pricing" className="text-primary hover:text-primary-700 underline font-medium">pricing plans</a> to get started.
                 </p>
               </div>
             </div>

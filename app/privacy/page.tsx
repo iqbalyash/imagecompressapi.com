@@ -17,7 +17,7 @@ export default function PrivacyPage() {
             <h1 className="text-4xl sm:text-5xl font-bold text-dark-slate mb-6">
               Privacy Policy
             </h1>
-            <p className="text-lg text-gray-300 mb-8">
+            <p className="text-lg text-slate-600 mb-8">
               Last updated: {new Date().toLocaleDateString("en-US", {
                 year: "numeric",
                 month: "long",
@@ -31,7 +31,7 @@ export default function PrivacyPage() {
                   1. Introduction
                 </h2>
                 <p className="text-base leading-relaxed mb-4">
-                  ImageCompressAPI ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our image compression and resize API service.
+                  ImageCompressAPI ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our image compression and resize API service. Please also review our <a href="/terms" className="text-primary hover:text-primary-700 underline font-medium">Terms of Service</a> and visit our <a href="/" className="text-primary hover:text-primary-700 underline font-medium">homepage</a> to learn more about our services.
                 </p>
               </section>
 

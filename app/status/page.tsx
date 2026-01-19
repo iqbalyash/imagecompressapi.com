@@ -79,7 +79,7 @@ export default function StatusPage() {
               Real-time status and uptime information for all ImageCompressAPI services. Monitor the health of our <strong className="text-dark-slate">image compression API</strong>, image processing infrastructure, CDN, and database systems.
             </p>
             <p className="text-base text-slate-600 mb-12">
-              We maintain a 99.9% uptime SLA with transparent status reporting and incident tracking.
+              We maintain a 99.9% uptime SLA with transparent status reporting and incident tracking. View our <a href="/pricing" className="text-primary hover:text-primary-700 underline font-medium">pricing plans</a> to see SLA details for different tiers.
             </p>
 
             {/* Overall Status */}
@@ -219,7 +219,7 @@ export default function StatusPage() {
                 Status API
               </h2>
               <p className="text-base text-slate-700 leading-relaxed mb-4">
-                Programmatically check service status using our Status API endpoint. This allows you to monitor our <strong className="text-dark-slate">image compression API</strong> availability and integrate status checks into your applications:
+                Programmatically check service status using our Status API endpoint. This allows you to monitor our <strong className="text-dark-slate">image compression API</strong> availability and integrate status checks into your applications. For more API endpoints and integration details, see our <a href="/docs" className="text-primary hover:text-primary-700 underline font-medium">API documentation</a>:
               </p>
               <div className="bg-slate-900 rounded-lg p-6 overflow-x-auto mb-6">
                 <pre className="text-gray-100 text-sm">
@@ -256,7 +256,7 @@ Response:
                   The status page is updated automatically and reflects the current state of all ImageCompressAPI services including the API endpoints, image processing infrastructure, CDN delivery network, and database systems. You can subscribe to status updates or use our Status API to programmatically check service availability.
                 </p>
                 <p>
-                  For mission-critical applications, we recommend implementing retry logic and monitoring our status API. Our service status is also available via webhook notifications, allowing you to integrate status monitoring directly into your applications and alerting systems.
+                  For mission-critical applications, we recommend implementing retry logic and monitoring our status API. Our service status is also available via webhook notifications, allowing you to integrate status monitoring directly into your applications and alerting systems. Learn more about API integration in our <a href="/docs" className="text-primary hover:text-primary-700 underline font-medium">API documentation</a> and check <a href="/pricing" className="text-primary hover:text-primary-700 underline font-medium">pricing plans</a> for webhook support.
                 </p>
               </div>
             </section>
