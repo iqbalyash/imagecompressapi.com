@@ -7,8 +7,56 @@ export const metadata = {
 };
 
 export default function Home() {
+  // Service Schema for homepage
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Image Compression API",
+    "provider": {
+      "@type": "Organization",
+      "name": "ImageCompressAPI",
+      "url": "https://imagecompressapi.com"
+    },
+    "areaServed": "Worldwide",
+    "description": "Bulk image compression API with custom sizes. Compress, resize, and convert images at scale. Supports AVIF, WebP, JPG, and PNG formats.",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Image Compression API Plans",
+      "itemListElement": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Free Plan",
+            "description": "500 images/month, bulk compression, AVIF & WebP support"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Starter Plan",
+            "description": "5,000 images/month, custom sizes, CDN delivery"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pro Plan",
+            "description": "25,000 images/month, priority processing, webhooks"
+          }
+        }
+      ]
+    }
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
       <Header />
 
       <main className="min-h-screen">

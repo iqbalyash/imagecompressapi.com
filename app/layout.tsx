@@ -83,11 +83,77 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // Structured Data (JSON-LD) for better SEO and indexing
+  const organizationSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "ImageCompressAPI",
+    "url": "https://imagecompressapi.com",
+    "logo": "https://imagecompressapi.com/image_compress_api_logo1.png",
+    "description": "Bulk image compression API for developers. Compress, resize, and convert images at scale using an API. Supports AVIF, WebP, JPG, and PNG.",
+    "sameAs": [
+      "https://twitter.com/imagecompressapi"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Support",
+      "email": "support@imagecompressapi.com"
+    }
+  };
+
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ImageCompressAPI",
+    "url": "https://imagecompressapi.com",
+    "description": "Image compression and resize API for developers. Compress images in bulk, convert to AVIF and WebP, and define custom image sizes using a fast API.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": {
+        "@type": "EntryPoint",
+        "urlTemplate": "https://imagecompressapi.com/docs?q={search_term_string}"
+      },
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const softwareApplicationSchema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ImageCompressAPI",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD",
+      "description": "Free tier available with 500 images/month"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "150"
+    },
+    "description": "Bulk image compression API with custom sizes. Supports AVIF, WebP, JPG, and PNG formats. Fast CDN delivery and privacy-first auto deletion."
+  };
+
   return (
     <html lang="en">
       <head>
         <meta name="google-site-verification" content="DFLnzq2xOJB4Ck2HxzSRwXPlaccGzDrZCe7bTUAolKM" />
         <link rel="icon" href="/Image_compress_api.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(softwareApplicationSchema) }}
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
